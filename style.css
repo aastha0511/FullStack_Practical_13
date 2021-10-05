@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+}
+table {
+    border-collapse: collapse;
+    height: 500px;
+    width: 60%;
+    margin: auto;
+    border: 1px solid white;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color:rgb(253, 221, 226);
+  }
+  caption{
+      color: black;
+      background-color: white;
+      text-align: center;
+      height: 40px;
+      line-height: 7vh;
+      font-weight: bold;
+      margin:auto;
+  }
+td, th{
+    text-align: center;
+    margin: 5px 5px;
+}
+  tr:nth-child(odd) .basic{
+    background-color: pink;
+  }
+  tr:nth-child(odd) .plus{
+    background-color: rgb(252, 96, 148);
+  }
+  tr:nth-child(odd) .deluxe{
+    background-color: rgb(253, 133, 173);
+  }
+  tr:nth-child(odd) .pro{
+    background-color: rgb(245, 114, 234);
+  }
+  button{
+      border-radius: 10px;
+      height: 30px;
+      background-color: purple;
+      color: white;
+  }
+  .header{
+      height: 70px;
+      font-size: 40px;
+      font-weight: bold;
+      color: purple;
+  }
+  .footer{
+      height: 50px;
+      font-size: 30px;
+  }
+    
+.fa-check{
+    color: green;
+}
+.fa-times{
+    color: red;
+}
+.basic{
+    margin-right: 2px solid white;
+}
+  
